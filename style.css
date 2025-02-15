@@ -14,7 +14,7 @@ body {
   display: none; /* Initially hidden */
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 10px;
   perspective: 800px;
   color: #ffffff;
   font-family: 'Pathway Gothic One', sans-serif;
