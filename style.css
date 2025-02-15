@@ -1,0 +1,70 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000;
+  z-index: 1;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease forwards;
+}
+
+.star-wars {
+  display: none; /* Initially hidden */
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  perspective: 800px;
+  color: #ffffff;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 300%;
+  font-weight: 600;
+  letter-spacing: 6px;
+  line-height: 150%;
+  text-align: justify;
+  
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 2s ease-in-out, visibility 2s; /* Smooth fade-in */
+
+  z-index: 1;
+}
+
+
+.text {
+  position: relative;
+  top: -100px;
+  transform-origin: 20% 100%;
+  animation: text 100s linear forwards;
+  z-index: 1;
+}
+
+@keyframes text {
+  0% {
+    top: 0;
+    transform: rotateX(20deg) translateZ(0);
+    z-index: 1;
+  }
+  100% {
+    top: -6000px;
+    transform: rotateX(25deg) translateZ(-2500px);
+    z-index: 1;
+  }
+}
+/* 
+.fade {
+  position: absolute;
+  width: 100%;
+  min-height: 60vh;
+  top: -100px;
+  background-image: linear-gradient(0deg 75% transparent black);
+  z-index: 1;
+}  */
+.fade {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30vh;
+  background: linear-gradient(to top, black, transparent);
+} 
