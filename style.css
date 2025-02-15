@@ -14,7 +14,7 @@ body {
   display: none; /* Initially hidden */
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: 100px;
   perspective: 800px;
   color: #ffffff;
   font-family: 'Pathway Gothic One', sans-serif;
@@ -34,8 +34,8 @@ body {
 
 .text {
   position: relative;
-  top: -100px;
-  transform-origin: 20% 100%;
+  top: -120px;
+  transform-origin: 50% 100%;
   animation: text 100s linear forwards;
   z-index: 1;
 }
