@@ -36,7 +36,7 @@ body {
   position: relative;
   top: -120px;
   transform-origin: 50% 100%;
-  animation: text 100s linear forwards;
+  animation: text 200s linear forwards;
   z-index: 1;
 }
 
